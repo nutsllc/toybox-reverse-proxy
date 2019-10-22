@@ -1,0 +1,8 @@
+.DS_Store
+bin/.env
+data/
+conf/conf.d/*.conf
+conf/certs/*.crt
+conf/certs/*.key
+conf/certs/*.pem
+conf/certs/*/

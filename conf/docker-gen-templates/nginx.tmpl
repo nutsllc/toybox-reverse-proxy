@@ -40,32 +40,32 @@ client_body_buffer_size  64k;
 tcp_nopush        on;
 server_tokens    off;
 
-# ------------------------------------
-# gzip compression
-# ------------------------------------
-gzip_static on;
-gzip on;
-gzip_http_version 1.0;
-gzip_vary on;
-gzip_comp_level   1;
-gzip_types text/plain
-            text/xml
-            text/css
-            text/javascript
-            application/xml
-            application/xml+rss
-            application/xhtml+xml
-            application/rss+xml
-            application/atom_xml
-            application/javascript
-            application/x-javascript
-            application/x-httpd-php
-            application/json;
-gzip_disable      "MSIE [1-6]\.";
-gzip_disable      "Mozilla/4";
-gzip_buffers      4 32k;
-gzip_min_length   1100;
-gzip_proxied off;
+## ------------------------------------
+## gzip compression
+## ------------------------------------
+#gzip_static on;
+#gzip on;
+#gzip_http_version 1.0;
+#gzip_vary on;
+#gzip_comp_level   1;
+#gzip_types text/plain
+#            text/xml
+#            text/css
+#            text/javascript
+#            application/xml
+#            application/xml+rss
+#            application/xhtml+xml
+#            application/rss+xml
+#            application/atom_xml
+#            application/javascript
+#            application/x-javascript
+#            application/x-httpd-php
+#            application/json;
+#gzip_disable      "MSIE [1-6]\.";
+#gzip_disable      "Mozilla/4";
+#gzip_buffers      4 32k;
+#gzip_min_length   1100;
+#gzip_proxied off;
 
 # ------------------------------------
 # Log
